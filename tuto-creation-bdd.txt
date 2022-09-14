@@ -1,0 +1,23 @@
+--------------------------
+// ETAPE 1
+// SE CONNECTER EN ADMIN
+--------------------------
+
+sudo -i -u postgres psql
+
+--------------------------
+// ETAPE 2
+// SE CONNECTER EN TANT QUE "USER"
+// PASSWORD
+--------------------------
+
+\c oquiz oquiz
+
+--------------------------
+// ETAPE 3
+// AJOUTER LA BDD
+--------------------------
+
+\i 'chemin de la base de données'
+
+

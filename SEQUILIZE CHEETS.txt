@@ -1,0 +1,3 @@
+https://dev.to/projectescape/the-comprehensive-sequelize-cheatsheet-3m1m
+
+https://sequelize.org/docs/v6/core-concepts/model-querying-finders/

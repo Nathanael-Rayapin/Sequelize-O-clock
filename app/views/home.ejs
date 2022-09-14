@@ -1,0 +1,14 @@
+<%- include('./partials/header') %>
+<body>
+    <h3>My Quizz Lists</h3>
+    <div class="card-container">
+     <% for (const quiz of quizList) { %>
+       <a href="#"><div class="cards">
+            <h4><%= quiz.title %></h4>
+            <p><%= quiz.description %></p>
+        </div>
+    </a>
+    <% } %>
+    </div>
+</body>
+<%- include('./partials/footer') %>

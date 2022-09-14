@@ -1,0 +1,35 @@
+h3 {
+    font-size: 40px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card-container a {
+    text-decoration: none;
+}
+
+.card-container .cards {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background: rgb(206, 38, 38);
+    margin-bottom: 1rem;
+    padding: 20px;
+}
+
+.card-container .cards h4,
+.card-container .cards p {
+    color: #fff;
+}
+
+.card-container .cards h4 {
+    font-size: 30px;
+}
+
+.card-container .cards p {
+    font-size: 20px;
+}
